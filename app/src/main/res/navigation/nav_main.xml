@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.mayajam.sample.Main.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/main_to_mission"
+            app:destination="@id/missionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/missionFragment"
+        android:name="com.mayajam.sample.Mission.MissionFragment"
+        android:label="fragment_mission"
+        tools:layout="@layout/fragment_mission" />
+</navigation>

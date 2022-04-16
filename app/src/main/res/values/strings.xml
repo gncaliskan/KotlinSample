@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KotlinSample</string>
+    <string name="get_missions">get missions</string>
+</resources>
