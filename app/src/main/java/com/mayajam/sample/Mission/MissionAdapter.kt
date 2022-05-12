@@ -20,7 +20,7 @@ class MissionAdapter(private val missionList:Array<Mission>) : RecyclerView.Adap
 
         fun setData(mission:Mission){
             missionId.setText(mission.mission_id)
-            missionName.setText(mission.missionName)
+            missionName.setText(mission.mission_name)
         }
 
     }
